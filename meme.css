@@ -1,0 +1,21 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  @font-face {
+    font-family: Comic;
+    src:url("comic.ttf");
+}
+
+@font-face { font-family: Comic; font-weight: bold; src: url('comicbd.ttf');}
+
+div {
+  font-family: Comic;
+}
+
+h1 { 
+  font-family: Comic !important; 
+}
